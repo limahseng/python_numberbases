@@ -1,5 +1,7 @@
 # converter.py
 # Convert between decimal, binary, octal and hexadecimal
+# using first principles
+# not built in bin, oct, hex functions
 
 import math
 
@@ -86,3 +88,4 @@ print(dec_to_hex(28))
 # we will represent numbers in other bases using string
 print(bin_to_dec("11010"))
 print(oct_to_dec("32"))
+# better still, do unit testing
